@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="script.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page</title>
+    <link rel="stylesheet" href="sultan.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>NGO Sponsorship Program</h1>
+        <p>Registration Form</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="sultan.html">Home</a></li>
+            <li><a href="sultan2.html">Registration</a></li>
+            <li><a href="sultan7.html">Updates</a></li>
+            <li><a href="sultan8.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="registration">
+        <h2>Registration Form</h2><br>
+        <p>Please provide the following details to express your interest in the scholarship:</p><br>
+
+        <form action="registration_process.php" method="post" enctype="multipart/form-data">
+            <label for="firstName">First Name:</label>
+            <input type="text" id="firstName" name="firstName" required>
+<br><br>
+            <label for="lastName">Last Name:</label>
+            <input type="text" id="lastName" name="lastName" required>
+<br><br>
+            <label for="middleName">Middle Name:</label>
+            <input type="text" id="middleName" name="middleName">
+<br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+<br><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required>
+<br><br>
+            <label for="localGovernment">Local Government:</label>
+        <br>    <!-- You can replace the options with the actual local government options -->
+            <select id="localGovernment" name="localGovernment" required>
+                <option value="lg1">Local Government 1</option>
+                <option value="lg2">Local Government 2</option>
+                <!-- Add more options as needed -->
+            </select>
+<br><br>
+            <label for="school">School:</label>
+        <br>    <!-- You can replace the options with the actual school options -->
+            <select id="school" name="school" required>
+                <option value="school1">School 1</option>
+                <option value="school2">School 2</option>
+                <!-- Add more options as needed -->
+            </select>
+<br><br>
+            <label for="schoolType">School Type:</label>
+        <br>    <!-- You can replace the options with the actual school type options -->
+            <select id="schoolType" name="schoolType" required>
+                <option value="degree">Degree</option>
+                <option value="diploma">Diploma</option>
+                <option value="nce">NCE</option>
+            </select>
+<br><br>
+            <label for="registrationNumber">Registration Number:</label>
+            <input type="text" id="registrationNumber" name="registrationNumber" required>
+<br><br>
+            <label for="ssceCertificate">SSCE Certificate:</label>
+            <input type="file" id="ssceCertificate" name="ssceCertificate" accept=".pdf, .jpg, .jpeg, .png" required>
+<br><br>
+            <label for="primaryCertificate">Primary School Certificate:</label>
+            <input type="file" id="primaryCertificate" name="primaryCertificate" accept=".pdf, .jpg, .jpeg, .png" required>
+<br><br>
+            <label for="indigeneForm">Indigene Form:</label>
+            <input type="file" id="indigeneForm" name="indigeneForm" accept=".pdf, .jpg, .jpeg, .png" required>
+<br><br>
+            <label for="birthCertificate">Birth Certificate:</label>
+            <input type="file" id="birthCertificate" name="birthCertificate" accept=".pdf, .jpg, .jpeg, .png" required>
+<br><br>
+            <label for="ninCertificate">NIN Certificate:</label>
+            <input type="file" id="ninCertificate" name="ninCertificate" accept=".pdf, .jpg, .jpeg, .png" required>
+
+<br><br>
+            <label for="BankName">Bank Name:</label>
+            <input type="text" id="BankName" name="BankName" required>
+<br><br>
+            <label for="AccountName">Account Name:</label>
+            <input type="text" id="AccountName" name="AccountName" required>
+<br><br>
+            <label for="AccountNo.">Account No.:</label>
+            <input type="int" id="AccountNo." name="AccountNo.">
+<br><br>
+            <label for="BVN">BVN</label>
+            <input type="int" id="BVN" name="BVN" required>
+<br><br>
+            <label for="reason">Why do you need this scholarship?</label>
+            <textarea id="reason" name="reason" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us for more information: <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+
+</body>
+
+</html>

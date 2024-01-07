@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="sultan.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="sultan.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>NGO Sponsorship Program</h1>
+        <p>Contact Us</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="sultan.html">Home</a></li>
+            <li><a href="sultan2.html">Registration</a></li>
+            <li><a href="sultan7.html">Updates</a></li>
+            <li><a href="sultan8.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="contact-us">
+        <h2>Contact Us</h2>
+        <p>If you have any questions or inquiries, please feel free to contact us using the form below:</p>
+<br><br>
+        <form action="contact_process.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+<br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+<br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea>
+<br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer id="contact">
+        <p>Contact us for more information: <a href="mailto:info@example.com">info@example.com</a></p>
+    </footer>
+
+</body>
+
+</html>
